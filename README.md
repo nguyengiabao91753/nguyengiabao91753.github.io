@@ -1,18 +1,11 @@
 # Nguyễn Gia Bảo
+<img src="avatar.jpg" alt="Nguyễn Gia Bảo" style="width:150px; border-radius:50%; display:block; margin:20px auto;">
 .NET Developer  
 📞 0768920314 | ✉ [nguyengiabao91753@gmail.com](mailto:nguyengiabao91753@gmail.com) | 🔗 [GitHub](https://github.com/nguyengiabao91753) | 🏅 Hoc Mon, Ho Chi Minh
 
 <div class="container">
 
 <div class="left-column">
-
-## Objective
-
-**Short-Term:**  
-Focus on advancing my skills as a .NET Web Developer by actively participating in enterprise-level projects, improving code quality, system design, and DevOps practices while learning from experienced cross-functional teams.
-
-**Long-Term:**  
-Aspire to become a DevSecOps Engineer / Tech Lead for large-scale distributed systems, where I can integrate security-by-design principles into application development, CI/CD automation, and cloud-native architectures. I am motivated by the challenge of building systems that are not only scalable and performant, but also secure, observable, and resilient under real-world conditions.
 
 ## Education
 
