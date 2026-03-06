@@ -1,28 +1,115 @@
-# 👋 Hello, I'm Nguyễn Gia Bảo!
-- 🎯 Aspiring .NET Full-stack Developer passionate about building scalable and innovative web applications.
+# Nguyễn Gia Bảo
+.NET Developer  
+📞 0768920314 | ✉ [nguyengiabao91753@gmail.com](mailto:nguyengiabao91753@gmail.com) | 🔗 [GitHub](https://github.com/nguyengiabao91753) | 🏅 Hoc Mon, Ho Chi Minh
 
-## 🛠️ Tech Highlights
+<div class="container">
 
-### Full-stack
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=.net&logoColor=white)
-![SignalR](https://img.shields.io/badge/SignalR-9B74C5?style=flat&logo=dotnet&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![ReactJS](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+<div class="left-column">
 
-### Architecture & Design
-![Microservices](https://img.shields.io/badge/Microservices-00BFFF?style=flat)
+## Objective
 
-## 📈 GitHub Stats
+**Short-Term:**  
+Focus on advancing my skills as a .NET Web Developer by actively participating in enterprise-level projects, improving code quality, system design, and DevOps practices while learning from experienced cross-functional teams.
 
-![Gia Bao's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nguyengiabao91753&show_icons=true&theme=radical)
+**Long-Term:**  
+Aspire to become a DevSecOps Engineer / Tech Lead for large-scale distributed systems, where I can integrate security-by-design principles into application development, CI/CD automation, and cloud-native architectures. I am motivated by the challenge of building systems that are not only scalable and performant, but also secure, observable, and resilient under real-world conditions.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nguyengiabao91753&layout=compact&theme=radical)
+## Education
 
-## 📫 Contact
-- 📧 Email: [nguyengiabao91753@gmail.com](mailto:nguyengiabao91753@gmail.com)
-- 🔗 GitHub: [nguyengiabao91753](https://github.com/nguyengiabao91753)
+**Sai Gon University**  
+Software Engineer  
+2022 - 2027
 
----
+**Aptech Vietnam**  
+ADSE - Advanced Diploma in Software Engineering  
+2022 - 2025
 
-_"Success is the sum of small efforts repeated day in and day out."_ 💬
+## Contact
+
+- 📧 [Email](mailto:nguyengiabao91753@gmail.com)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/nguyen-gia-bao-a0a028247/)  
+- 📄 [MyCV](https://drive.google.com/file/d/1j0zN0uuhYhoe4t95gV_-KEhQ2H14dFYU/view?usp=sharing)  
+- 🔗 [GitHub](https://github.com/nguyengiabao91753)
+
+</div>
+
+<div class="right-column">
+
+## Skills
+
+<div class="skills-section">
+
+**Database**  
+- MySQL, SQL Server
+
+**Back-End**  
+- C# - ASP .NET Core  
+- Entity Framework Core, Dapper, ASP Identity  
+- SignalR, Hangfire, Ocelot  
+- Microservices, Clean Architect
+
+**Front-End**  
+- Angular, React, Blazor
+
+**Message Queue**  
+- RabbitMQ + Masstransit
+
+**Project Management**  
+- GitHub, Azure DevOps
+
+</div>
+
+## Projects
+
+<div class="project">
+
+### Distributed System Architecture Project  
+*28/9/2025 - 24/11/2025* | Leader | Team Size: 6  
+[Source](https://github.com/nguyengiabao91753/Software_Architecture)
+
+**Technologies:**  
+- Architecture: Microservices + Clean Architect  
+- ASP .NET Core API, ASP .NET Identity, EF Core, SignalR  
+- Ocelot Gateway, RabbitMQ + MassTransit, Jaeger, Prometheus  
+- SQL Server, MongoDB  
+- Saga Pattern, CQRS Pattern  
+- Docker
+
+**Responsibilities:**  
+- Designed overall software architecture following Clean Architecture principles  
+- Developed the Order module based on Clean Architecture  
+- Configured and integrated RabbitMQ to handle order, payment, and voucher workflows  
+- Implemented Saga Orchestration pattern to manage distributed transaction flows  
+- Set up Docker environment for application deployment  
+- Authored technical documentation on RabbitMQ usage for the development team
+
+</div>
+
+<div class="project">
+
+### SecSharee  
+*22/9/2025 - 18/11/2025* | Leader | Team Size: 2  
+[Source](https://github.com/nguyengiabao91753/SecShare)
+
+**Technologies:**  
+- Architecture: Microservices  
+- ASP .NET Core API, ASP .NET Identity, EF Core  
+- Ocelot Gateway  
+- SQL Server
+
+**Responsibilities:**  
+- Planned and managed team workflow and milestones using Gantt charts  
+- Designed scalable database architecture and data models  
+- Defined overall system architecture and enforced coding standards  
+- Applied hybrid encryption mechanism using RSA and AES to ensure secure document transmission  
+- Designed detailed sequence diagrams for document upload, sharing, and access processes with encryption workflows
+
+</div>
+
+</div>
+
+</div>
+
+<div class="quote">
+"Success is the sum of small efforts repeated day in and day out." 💬
+</div>
