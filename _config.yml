@@ -1,0 +1,12 @@
+title: Nguyễn Gia Bảo - .NET Full-stack Developer
+description: Passionate about building scalable and innovative web applications with .NET, Angular, React, and modern architectures.
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Optional: hiển thị nút download nếu bạn có file resume.zip hoặc tương tự
+show_downloads: false
+
+# Nếu bạn muốn thêm Google Analytics sau này
+# google_analytics: UA-XXXXX-X
