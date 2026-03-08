@@ -1,108 +1,69 @@
-# Nguyễn Gia Bảo
-<img src="avatar.jpg" alt="Nguyễn Gia Bảo" style="width:150px; border-radius:50%; display:block; margin:20px auto;">
-.NET Developer  
-📞 0768920314 | ✉ [nguyengiabao91753@gmail.com](mailto:nguyengiabao91753@gmail.com) | 🔗 [GitHub](https://github.com/nguyengiabao91753) | 🏅 Hoc Mon, Ho Chi Minh
+# 🚀 Nguyễn Gia Bảo — Portfolio
 
-<div class="container">
+Personal portfolio website built with HTML, CSS, and Vanilla JavaScript.
 
-<div class="left-column">
+## 🗂 Project Structure
 
-## Education
+```
+portfolio/
+├── index.html      # Main HTML file
+├── style.css       # Styles (dark cyberpunk theme)
+├── script.js       # Interactions & animations
+└── README.md       # This file
+```
 
-**Sai Gon University**  
-Software Engineer  
-2022 - 2027
+## ⚡ Setup & Run
 
-**Aptech Vietnam**  
-ADSE - Advanced Diploma in Software Engineering  
-2022 - 2025
+### Option 1: Open directly (simplest)
+Just double-click `index.html` — it works offline, no build step needed!
 
-## Contact
+### Option 2: Local development server (recommended for live-reload)
 
-- 📧 [Email](mailto:nguyengiabao91753@gmail.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/nguyen-gia-bao-a0a028247/)  
-- 📄 [MyCV](https://drive.google.com/file/d/1j0zN0uuhYhoe4t95gV_-KEhQ2H14dFYU/view?usp=sharing)  
-- 🔗 [GitHub](https://github.com/nguyengiabao91753)
+**Using VS Code + Live Server (recommended):**
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
+2. Install the **Live Server** extension (Ritwick Dey)
+3. Open the `portfolio/` folder in VS Code
+4. Right-click `index.html` → **"Open with Live Server"**
+5. Browser opens at `http://127.0.0.1:5500`
 
-</div>
+**Using Node.js (npx serve):**
+```bash
+npx serve .
+# Opens at http://localhost:3000
+```
 
-<div class="right-column">
+**Using Python:**
+```bash
+# Python 3
+python -m http.server 8080
+# Opens at http://localhost:8080
+```
 
-## Skills
+## 🌐 Deploy to GitHub Pages (Free Hosting)
 
-<div class="skills-section">
+1. Create a new GitHub repo named `portfolio` (or `<your-username>.github.io`)
+2. Push all files:
+```bash
+git init
+git add .
+git commit -m "Initial portfolio"
+git remote add origin https://github.com/nguyengiabao91753/portfolio.git
+git push -u origin main
+```
+3. Go to repo **Settings → Pages**
+4. Source: **Deploy from branch → main → / (root)**
+5. Your site will be live at: `https://nguyengiabao91753.github.io/portfolio/`
 
-**Database**  
-- MySQL, SQL Server
+## ✏️ Customization
 
-**Back-End**  
-- C# - ASP .NET Core  
-- Entity Framework Core, Dapper, ASP Identity  
-- SignalR, Hangfire, Ocelot  
-- Microservices, Clean Architect
+- **Add your photo**: Replace the `avatar-initials` div in `index.html` with an `<img>` tag
+- **Add LinkedIn**: Add your LinkedIn URL in the hero-socials section
+- **CV download**: Add a resume PDF to the folder and link it in the About section
+- **Update info**: Edit `index.html` directly — all content is clearly labeled
 
-**Front-End**  
-- Angular, React, Blazor
+## 🎨 Tech Used
 
-**Message Queue**  
-- RabbitMQ + Masstransit
-
-**Project Management**  
-- GitHub, Azure DevOps
-
-</div>
-
-## Projects
-
-<div class="project">
-
-### Distributed System Architecture Project  
-*28/9/2025 - 24/11/2025* | Leader | Team Size: 6  
-[Source](https://github.com/nguyengiabao91753/Software_Architecture)
-
-**Technologies:**  
-- Architecture: Microservices + Clean Architect  
-- ASP .NET Core API, ASP .NET Identity, EF Core, SignalR  
-- Ocelot Gateway, RabbitMQ + MassTransit, Jaeger, Prometheus  
-- SQL Server, MongoDB  
-- Saga Pattern, CQRS Pattern  
-- Docker
-
-**Responsibilities:**  
-- Designed overall software architecture following Clean Architecture principles  
-- Developed the Order module based on Clean Architecture  
-- Configured and integrated RabbitMQ to handle order, payment, and voucher workflows  
-- Implemented Saga Orchestration pattern to manage distributed transaction flows  
-- Set up Docker environment for application deployment  
-- Authored technical documentation on RabbitMQ usage for the development team
-
-</div>
-
-<div class="project">
-
-### SecSharee  
-*22/9/2025 - 18/11/2025* | Leader | Team Size: 2  
-[Source](https://github.com/nguyengiabao91753/SecShare)
-
-**Technologies:**  
-- Architecture: Microservices  
-- ASP .NET Core API, ASP .NET Identity, EF Core  
-- Ocelot Gateway  
-- SQL Server
-
-**Responsibilities:**  
-- Planned and managed team workflow and milestones using Gantt charts  
-- Designed scalable database architecture and data models  
-- Defined overall system architecture and enforced coding standards  
-- Applied hybrid encryption mechanism using RSA and AES to ensure secure document transmission  
-- Designed detailed sequence diagrams for document upload, sharing, and access processes with encryption workflows
-
-</div>
-
-</div>
-
-</div>
-
-<div class="quote">
-"Success is the sum of small efforts repeated day in and day out." 💬
-</div>
+- Fonts: [Syne](https://fonts.google.com/specimen/Syne) + [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Icons: [Font Awesome 6](https://fontawesome.com/)
+- Pure CSS animations (no framework)
+- Vanilla JavaScript (no dependencies)
