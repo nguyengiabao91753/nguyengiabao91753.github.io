@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +47,7 @@
         <span class="typewriter" id="typewriter"></span><span class="blink">|</span>
       </p>
       <p class="hero-desc">
-        Building distributed systems & clean architectures.<br/>
+        Building distributed systems &amp; clean architectures.<br/>
         Aspiring DevSecOps Engineer based in Hồ Chí Minh City.
       </p>
       <div class="hero-cta">
@@ -64,10 +65,10 @@
           <i class="fas fa-phone"></i>
         </a>
         <a href="https://www.linkedin.com/in/nguyen-gia-bao-a0a028247/" aria-label="LinkedIn" target="_blank">
-  <i class="fa-brands fa-linkedin"></i>
-</a>
-        <a href="https://drive.google.com/file/d/1jtoaflChF8zbyWFrIxB2j0l1YzEJ9joy/view?usp=drivesdk" aria-label="Phone">
-          <i class="fa-solid fa-file-lines"></i>
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://drive.google.com/file/d/1jtoaflChF8zbyWFrIxB2j0l1YzEJ9joy/view?usp=drivesdk" aria-label="CV" target="_blank">
+          <i class="fas fa-file-lines"></i>
         </a>
       </div>
     </div>
@@ -77,7 +78,7 @@
           <span class="avatar-initials">GB</span>
         </div>
         <svg class="orbit-ring" viewBox="0 0 200 200">
-          <circle cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="1" stroke-dasharray="6 10"/>
+          <circle cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="6 10"/>
         </svg>
       </div>
       <div class="floating-badge badge-1"><i class="fas fa-code"></i> .NET Core</div>
@@ -110,7 +111,7 @@
           </p>
           <div class="about-stats">
             <div class="stat">
-              <span class="stat-num">3+</span>
+              <span class="stat-num">4+</span>
               <span class="stat-label">Major Projects</span>
             </div>
             <div class="stat">
@@ -250,8 +251,22 @@
 
         <div class="skill-category">
           <div class="skill-cat-header">
+            <i class="fas fa-brain"></i>
+            <h3>AI / ML</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-primary">LangChain</span>
+            <span class="tag">RAG Pipeline</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">Ollama</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
             <i class="fas fa-tools"></i>
-            <h3>DevOps & Tools</h3>
+            <h3>DevOps &amp; Tools</h3>
           </div>
           <div class="skill-tags">
             <span class="tag tag-primary">Docker</span>
@@ -271,7 +286,7 @@
     <div class="container">
       <div class="section-header">
         <span class="section-num">03</span>
-        <h2 class="section-title">Experience & Awards</h2>
+        <h2 class="section-title">Experience &amp; Awards</h2>
       </div>
       <div class="timeline">
 
@@ -343,6 +358,38 @@
       </div>
       <div class="projects-grid">
 
+        <!-- SMARTDOC AI — CURRENT PROJECT -->
+        <div class="project-card current">
+          <div class="project-top">
+            <div class="project-label">
+              <span class="current-dot"></span>
+              In Progress · Team Leader (5 members)
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nguyengiabao91753/SmartDoc_AI" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">SmartDoc AI <span class="current-badge">Current</span></h3>
+          <p class="project-date">2025 – Present</p>
+          <p class="project-desc">
+            An intelligent document Q&amp;A system powered by a local RAG (Retrieval-Augmented Generation) pipeline. Users can upload any PDF or text document and query it in natural language — the system retrieves the most relevant chunks via FAISS vector search and generates accurate, context-grounded answers using a locally-run LLM through Ollama, keeping data fully private with zero cloud dependency.
+          </p>
+          <ul class="project-highlights">
+            <li>Built full RAG pipeline: document ingestion → chunking → embedding → vector storage → retrieval → generation</li>
+            <li>Integrated <strong>FAISS</strong> as the vector store for fast semantic similarity search</li>
+            <li>Used <strong>Ollama</strong> to run open-source LLMs locally (e.g. Llama 3, Mistral) — fully offline</li>
+            <li>Orchestrated the entire chain with <strong>LangChain</strong> for modular, composable AI workflows</li>
+            <li>Designed a <strong>React</strong> frontend UI for document upload and interactive Q&amp;A chat</li>
+            <li>Architected backend API with <strong>Python / FastAPI</strong> following clean separation of concerns</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>LangChain</span><span>RAG</span>
+            <span>FAISS</span><span>Ollama</span><span>FastAPI</span>
+            <span>React</span><span>LLM</span>
+          </div>
+        </div>
+
+        <!-- PROJECT 1 -->
         <div class="project-card featured">
           <div class="project-top">
             <div class="project-label">Featured · Team Leader (6 members)</div>
@@ -369,6 +416,7 @@
           </div>
         </div>
 
+        <!-- PROJECT 2 -->
         <div class="project-card">
           <div class="project-top">
             <div class="project-label">Team Leader (2 members)</div>
@@ -387,6 +435,7 @@
           </div>
         </div>
 
+        <!-- PROJECT 3 -->
         <div class="project-card">
           <div class="project-top">
             <div class="project-label">Team Leader (4 members)</div>
@@ -450,6 +499,13 @@
                 <span class="contact-item-value">nguyengiabao91753</span>
               </div>
             </a>
+            <a href="https://www.linkedin.com/in/nguyen-gia-bao-a0a028247/" target="_blank" class="contact-item">
+              <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+              <div>
+                <span class="contact-item-label">LinkedIn</span>
+                <span class="contact-item-value">nguyen-gia-bao</span>
+              </div>
+            </a>
           </div>
         </div>
         <form class="contact-form" id="contact-form">
@@ -479,9 +535,10 @@
     <div class="container">
       <div class="footer-inner">
         <span class="footer-logo">GiaBao<span class="accent">.</span></span>
-        <p>Designed & Built by Nguyễn Gia Bảo © 2025</p>
+        <p>Designed &amp; Built by Nguyễn Gia Bảo © 2025</p>
         <div class="footer-socials">
           <a href="https://github.com/nguyengiabao91753" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nguyen-gia-bao-a0a028247/" target="_blank"><i class="fab fa-linkedin"></i></a>
           <a href="mailto:nguyengiabao91753@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
